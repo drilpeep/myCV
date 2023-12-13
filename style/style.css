@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f5f7fa;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.main_content {
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+.myphoto {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.contacts,
+.tech,
+.soft {
+  margin-left: 40px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contacts,
+.tech,
+.soft {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.contact_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #80868f;
+}
+.techskills,
+.softskills {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 18px;
+}
+
+.soft_item,
+.tech_item {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tech_item_skills,
+.soft_item_skills {
+  color: rgb(251, 109, 58);
+}
+
+.techskills {
+  margin-bottom: 45px;
+}
+
+.softskills {
+  margin-bottom: 365px;
+}
